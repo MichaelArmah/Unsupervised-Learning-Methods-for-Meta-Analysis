@@ -5,9 +5,13 @@ Supplementary code for the paper "Unsupervised Learning for Meta Analysis: Ident
 ## Table of Contents
 
 ### Data Folder
+Contains an RDS file containing the McLouth data referenced in the "Unsupervised Learning for Meta Analysis: Identifying Factor Analysis and Clustering Methods for Exploratory Data Analysis and Prediction in Meta-Analysis" paper
+
 - The McLouth data set
 
 ### Functions
+Contains R scripts for the developed unsupervised learning functions.
+
 - MetaFAMD function
 - MetaMFA function
 - MetaPAM function
