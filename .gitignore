@@ -2,3 +2,7 @@
 .Rhistory
 .RData
 .Ruserdata
+
+# macOS junk files
+.DS_Store
+*/.DS_Store
