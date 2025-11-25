@@ -84,7 +84,7 @@ MetaFAMD <- function(data, study_col, yi_col, vi_col, mods, rho, num_pcs,...) {
 }
 
 
-# Function call
+# Example function call
 MetaFAMD_model <- MetaFAMD(
   data   = McLouth_Data,
   study = "study_id",
@@ -96,6 +96,6 @@ MetaFAMD_model <- MetaFAMD(
   graph = FALSE
 )
 
-# Function results
+# Example function results
 MetaFAMD_model$tau2        
 MetaFAMD_model$results

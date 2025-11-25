@@ -138,7 +138,7 @@ MetaMFA <- function(data, study_col, yi_col, vi_col, mods, rho, num_pcs, group_a
 }
 
 
-# Function call
+# Example function call
 MetaMFA_model <- MetaMFA(
   data   = McLouth_Data,
   study = "study_id",
@@ -154,7 +154,7 @@ MetaMFA_model <- MetaMFA(
   graph = FALSE
 )
 
-# Function results
+# Example function results
 MetaMFA_model$tau2        
 MetaMFA_model$results 
 
