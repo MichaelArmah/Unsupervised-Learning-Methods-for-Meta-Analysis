@@ -12,12 +12,17 @@ Contains an RDS file containing the McLouth data referenced in the "Unsupervised
 ### Functions
 Contains R scripts for the developed unsupervised learning functions.
 
+- MetaPCA function
+- MetaMCA function
 - MetaFAMD function
 - MetaMFA function
 - MetaPAM function
 
 ### Figures
-- TO BE ADDED
+Contains code for the figures created for both the main section of the paper - where the methods were developed - and the example section - where we perform an example analysis on the McLouth data
+
+- Main Section 
+- Example Section
 
 ## References
 
