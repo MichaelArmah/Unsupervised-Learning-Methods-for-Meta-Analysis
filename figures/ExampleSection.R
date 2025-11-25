@@ -46,6 +46,37 @@ MetaFAMD_model_reduced_results <- MetaFAMD_model_reduced$results
 
 
 
+
+
+# Contribution to the first dimension
+p1 <- fviz_contrib(MetaFAMD_results, "var", axes = 2) +
+  ggtitle("Contributions of Variables to PC2")
+# Contribution to the second dimension
+p2 <- fviz_contrib(MetaFAMD_results, "var", axes = 7) +
+  ggtitle("Contributions of Variables to PC7")
+# Contribution to the ninth dimension
+p3 <- fviz_contrib(MetaFAMD_results, "var", axes = 9) +
+  ggtitle("Contributions of Variables to PC9")
+# Contribution to the tenth dimension
+p4 <- fviz_contrib(MetaFAMD_results, "var", axes = 10) +
+  ggtitle("Contributions of Variables to PC10")
+
+
+p1 + p2
+
+p3 + p4
+
+
+##############################################################
+##############################################################
+##############################################################
+
+# Old plots for the example
+
+
+
+
+
 # MetaFAMD - Top 10 Contributing Variables for PC2 adn PC7
 p1 <- fviz_famd_var(
   MetaFAMD_results,
@@ -116,3 +147,8 @@ fviz_cluster(Example_HCPC_results, axes = c(2, 9), geom = c("point", "text"), la
     legend.text = element_text(size = 23),      # Legend text
     legend.title = element_text(size = 23)      # Legend title
   )
+
+
+
+
+
