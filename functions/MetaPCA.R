@@ -94,5 +94,5 @@ MetaPCA_model <- MetaPCA(
 )
 
 # Example function results
-MetaPCA_model$tau2        
-MetaPCA_model$results
+MetaPCA_model$tau2    # Reports tau squared for the model    
+MetaPCA_model$results # Reports the principal component results from the MetaPCA

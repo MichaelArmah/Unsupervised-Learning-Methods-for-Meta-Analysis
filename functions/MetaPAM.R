@@ -106,6 +106,8 @@ MetaPAM_clusters <- MetaPAM(
 )
 
 # Function results
-MetaPAM_clusters$tau2
-MetaPAM_clusters$results
+MetaPAM_clusters$tau2 # Reports tau squared for the model
+MetaPAM_clusters$results$clustering # Reports the cluster assignments 
+MetaPAM_clusters$results$stats # Reports several clustering quality metrics
+MetaPAM_clusters$results$ASW # Reports the ASW for MetaPAM
 MetaPAM_clusters$distances

@@ -155,8 +155,8 @@ MetaMFA_model <- MetaMFA(
 )
 
 # Example function results
-MetaMFA_model$tau2        
-MetaMFA_model$results 
+MetaMFA_model$tau2   # Reports tau squared for the model     
+MetaMFA_model$results  # Reports the principal component results from the MetaMFA
 
 
 

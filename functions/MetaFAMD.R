@@ -97,5 +97,5 @@ MetaFAMD_model <- MetaFAMD(
 )
 
 # Example function results
-MetaFAMD_model$tau2        
-MetaFAMD_model$results
+MetaFAMD_model$tau2   # Reports tau squared for the model 
+MetaFAMD_model$results  # Reports the principal component results from the MetaFAMD
