@@ -85,7 +85,7 @@ MetaPAM <- function(data, study_col, yi_col, vi_col, mods, rho, num_clusters, ..
   MetaPAM_result <- wcKMedoids(gower.dist_mv, k = num_clusters, weights = inverse_variance_mv,
                                method="PAMonce",...)
   
-  list(results = MetaPAM_result, tau2 = tau2_hat)
+  list(results = MetaPAM_result, tau2 = tau2_hat, distances = gower.dist_mv)
   
 }
 
@@ -108,3 +108,4 @@ MetaPAM_clusters <- MetaPAM(
 # Function results
 MetaPAM_clusters$tau2
 MetaPAM_clusters$results
+MetaPAM_clusters$distances
